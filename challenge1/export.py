@@ -20,7 +20,7 @@ def request_files(urls):
         result.append(requests.get(url, allow_redirects=True).json())
     return result
 
-# Using this mock response for test purposes insead
+# Using this mock response with arbitrary json for test purposes insead
 def request_files_mock(urls):
     return [
         '{"menu": {"id": "file","value": "File","popup": {"menuitem": [{"value": "New", "onclick": "CreateNewDoc()"},{"value": "Open", "onclick": "OpenDoc()"},{"value": "Close", "onclick": "CloseDoc()"}]}}}',
