@@ -1,0 +1,4 @@
+"Id","EventName","timestamp","CustomField_1","CustomField_2","CustomField_PageNum","CustomField_PublicationId"
+1,"EventRead","2019-10-11 10:00:00",NULL,NULL,1,1
+2,"EventRead","2019-10-11 10:02:00",NULL,NULL,2,1
+3,"OtherEvent","2019-10-11 10:03:00",NULL,NULL,2,1
