@@ -12,7 +12,7 @@ We asume the curl always returns a 302 response with a redirect url.The redirect
 
 We need a Python program that should accept a date and extract the 24 files corresponding to that date data. The program should output 1 csv file (‘export.csv’) with all the data for the day.
 
-The program should be able to parse into these csv any kind of json.
+The program should be able to parse into this csv any kind of json.
 
 ## Challenge 2
 
